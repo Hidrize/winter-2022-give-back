@@ -15,12 +15,13 @@ function Article(){
         <div>
             {
                 articleData.map((article) => {
+                    return (
                     <div>
                         <h3>{article.title}</h3>
                          <img src ={article.picture} alt='img' />
                     </div>
 
-     
+                    )
                 } )
             }
         </div>
