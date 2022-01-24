@@ -1,5 +1,10 @@
 function Article(){
-
+    const articleData [
+        {
+            title:'Bedbound Patients',
+            picture: 'https://cdn.flintrehab.com/uploads/2021/08/doctor-helping-bedridden-stroke-patient.jpg',
+        },{},{}
+    ]
     return(
         <div>
         <div>
