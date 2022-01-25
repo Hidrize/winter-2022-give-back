@@ -4,7 +4,7 @@ import '../App.css';
 function Donate() {
   return (
     <div>
-     <h1>Donate page</h1>
+     <h1>Donate</h1>
     </div>
   );
 }
