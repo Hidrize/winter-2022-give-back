@@ -1,10 +1,10 @@
 import React, { useCallback } from 'react';
 import './App.css';
 import Nav from './Nav';
-import About from './Components/About-us';
-import Testimonial from './Components/Testimonial';
-import Donate from './Components/Donate';
-import Home from './Components/Home';
+import About from './components/About-us';
+import Testimonial from './components/Testimonial';
+import Donate from './components/Donate';
+import Home from './components/Home';
 import { BrowserRouter,Routes,Route } from "react-router-dom";
 
 
