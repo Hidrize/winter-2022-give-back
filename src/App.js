@@ -1,4 +1,4 @@
-import React, { useCallback } from 'react';
+import React from 'react';
 import './App.css';
 import Nav from './Nav';
 import About from './Components/About-us';
