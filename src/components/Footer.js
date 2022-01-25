@@ -19,23 +19,21 @@ return (
 		<Row>
 		<Column>
 			<Heading>About Us</Heading>
-			<FooterLink href="#">Aim</FooterLink>
-			<FooterLink href="#">Vision</FooterLink>
-			<FooterLink href="#">Testimonials</FooterLink>
+			<FooterLink href="#">Purpose</FooterLink>
+			<FooterLink href="#">Goals</FooterLink>
 		</Column>
 		<Column>
 			<Heading>Services</Heading>
-			<FooterLink href="#">Writing</FooterLink>
-			<FooterLink href="#">Internships</FooterLink>
-			<FooterLink href="#">Coding</FooterLink>
-			<FooterLink href="#">Teaching</FooterLink>
+			<FooterLink href="#">Medical bill Assistance </FooterLink>
+			<FooterLink href="#">At Home Medical Assistnce </FooterLink>
+			<FooterLink href="#">Transportation </FooterLink>
+			<FooterLink href="#">Food assistance </FooterLink>
 		</Column>
 		<Column>
 			<Heading>Contact Us</Heading>
-			<FooterLink href="#">Uttar Pradesh</FooterLink>
-			<FooterLink href="#">Ahemdabad</FooterLink>
-			<FooterLink href="#">Indore</FooterLink>
-			<FooterLink href="#">Mumbai</FooterLink>
+			<FooterLink href="#">PR </FooterLink>
+			<FooterLink href="#">Doctor</FooterLink>
+			<FooterLink href="#">Front Desk</FooterLink>
 		</Column>
 		<Column>
 			<Heading>Social Media</Heading>
