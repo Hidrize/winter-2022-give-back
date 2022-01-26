@@ -8,7 +8,7 @@ function Article(){
         },
         {
             title: "Treating Patients",
-            picture: "https://dam.northwell.edu/m/78b87fcc218f1673/Drupal-NEWS_Can-doctors-refuse-to-treat-a-patient.jpg"
+            picture: "https://dam.northwell.edu/m/78b87fcc218f1673/Drupal-NEWS_Can-doctors-refuse-to-treat-a-patient.jpg",
             tag: "At Give Back. Org we provide the best treatment as possible  and free medication deliveries", 
         },{
             title: "Wheel Chair Bound Patients",
