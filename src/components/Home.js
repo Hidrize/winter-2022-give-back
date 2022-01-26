@@ -17,8 +17,8 @@ function Home() {
       <CardMedia
         component="img"
         alt=""
-        height="400"
-        image="https://image.shutterstock.com/image-photo/modern-hospital-style-building-260nw-212251981.jpg"
+        height="300"
+        image="https://stanfordhealthcare.org/for-patients-visitors/locations-and-parking/_jcr_content/pv-detail-parsys/columns/parsyscenter/imagewithcaption/image.img.full.high.jpg/1574003649516.jpg"
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
