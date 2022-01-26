@@ -1,6 +1,3 @@
-import '../App.css';
-import React from 'react';
-
 const testimonialData = [
         {
                 title: "Romels M.",
