@@ -16,10 +16,10 @@ function App() {
       <BrowserRouter>
         <Nav />
           <Routes >
-            <Route path="/Components/Home" exact element={<Home/>}/>
-            <Route path="/Components/About-us"   exact element={<About/>}/>
-            <Route path="/Components/Testimonial" exact element={<Testimonial/>}/>
-    `       <Route path="/Components/Donate"     exact element={<Donate/>}/>
+            <Route path="/Components/Home"  element={<Home/>}/>
+            <Route path="/Components/About-us"    element={<About/>}/>
+            <Route path="/Components/Testimonial"  element={<Testimonial/>}/>
+    `       <Route path="/Components/Donate"    element={<Donate/>}/>
           </Routes>
           <Footer/>
       </BrowserRouter>
