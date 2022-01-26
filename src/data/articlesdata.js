@@ -34,6 +34,7 @@ function Article() {
 
                         <CardContent>
                             <h3>{article.title}</h3>
+                            <h4 id='article-text'>"{article.tag}"</h4>
                         </CardContent>
                     </Card>
                 </Grid>
