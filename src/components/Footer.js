@@ -18,11 +18,6 @@ return (
 	<Container>
 		<Row>
 		<Column>
-			<Heading>About Us</Heading>
-			<FooterLink href="#">Purpose</FooterLink>
-			<FooterLink href="#">Goals</FooterLink>
-		</Column>
-		<Column>
 			<Heading>Services</Heading>
 			<FooterLink href="https://www.medicare.gov/">Medical bill Assistance </FooterLink>
 			<FooterLink href="https://enroll.rhc.care/cdpap/?">At Home Medical Assistnce </FooterLink>
