@@ -87,7 +87,7 @@ p
 
 body
 {
-  background-color: #303030;
+  background-color: Blue;
 }
 
 
@@ -130,8 +130,8 @@ nav {
   justify-content: space-around;
   align-items: center;
   min-height: 10vh;
-  background: gray;
-  color: blue;
+  background: red;
+  color: white;
 }
 
 .nav-links {
