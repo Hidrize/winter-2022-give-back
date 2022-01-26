@@ -1,44 +1,37 @@
-import '../App.css';
+import { Card, CardMedia, Typography, CardContent,Grid} from '@mui/material';
 import React from 'react';
+import testimonialData from '../Data/testimonialdata';
+const TestimonialCard = ({title, picture, body}) => {
+  return(
+          <Card sx={{ maxWidth: 345 }}>
+                  <CardMedia
+                  component="img"
+                  height="300"
+                  image={picture}
+                  alt={title}
+                  />
+                  <CardContent>
+                          <Typography gutterBottom variant='h5' component="div">
+                                  {title}
+                          </Typography>
+                          <Typography variant="body2" color="text.secondary">
+                                  {body}
+                          </Typography>
+                  </CardContent>
 
-function Testimonial() {
-        const articleData =[
-        {
-                title: "Romels M.",
-                image: "Romels - https://cdn.newswire.com/files/x/e5/65/c76499209dff5b7670261332406f.jpg",
-                body: "/"
-        },
-        {
-                title: "Idris L.",
-                image: "https://i.guim.co.uk/img/media/7111f90e2b39760de4819be4cb2a7d916e4e5b9a/1730_435_3886_2331/master/3886.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=472e53a31f55ba23cc1b45f8d07f0b0d",
-                body: "/"
-        },
-        {
-                title: "Christanie J.",
-                image: "https://yt3.ggpht.com/vflEEzq2BMgAlMxF78_S484UhcJbKUfolLc71t49UafRprz4rLY6yjYp-_Vyzb__gd-x-B53E7k=s600-c-k-c0x00ffffff-no-rj-rp-mo",
-                body: "/"
-        },
-        {
-                title: "Michael E.",
-                image: "https://scontent-lga3-1.xx.fbcdn.net/v/t39.30808-6/240888071_4451369741551552_1685062579129836247_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=730e14&_nc_ohc=K_Qig9EsaQQAX-rS3J2&tn=h5U97a7YLpSXGNvF&_nc_ht=scontent-lga3-1.xx&oh=00_AT-fRRvJ1-MKAdh1P3kY93pxLKDxqj-kkWb9pWgOAq3s3g&oe=61F576AE",
-                body: "/"
-        },
-        {
-                title: "Anthony C.",
-                image: "https://i.ytimg.com/vi/4VSx2E7WE50/maxresdefault.jpg",
-                body: "/"
-        },
-        {
-                title: "Rosanne W.",
-                image: "https://www.pexels.com/search/women/",
-                body: "/"
-        },
-        {
-                title: "Bill C.",
-                image: "https://media.istockphoto.com/photos/handsome-african-american-man-with-bald-head-picture-id1127818791?k=20&m=1127818791&s=612x612&w=0&h=9pdKPgApO_je1G2ODWRJMpngtJaAPK-CHIivv_KvuBQ=",
-                body: "/"
-    
-        },
-]
-}
+          </Card>
+  );
+};
+const Testimonial=()=> {
+        return(
+                <Grid container spacing={4}>
+                        {testimonialData.map((data)=>(
+                              <Grid item xs={3}>
+                                        <TestimonialCard picture= {data.picture} title={data.title} body={data.body}/>
+                                </Grid>
+                                )
+                        )}
+                </Grid>
+        )
+        }
 export default Testimonial;

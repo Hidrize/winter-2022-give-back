@@ -2,7 +2,7 @@
 const testimonialData = [
         {
                 title: "Romels M.",
-                picture: "Romels - https://cdn.newswire.com/files/x/e5/65/c76499209dff5b7670261332406f.jpg",
+                picture: "https://cdn.newswire.com/files/x/e5/65/c76499209dff5b7670261332406f.jpg",
                 body: "I lost both my legs years ago and because of my financial status i was unable to get the neccessary treatment and equipment needed to treat it. But with the help of the communities donations i was able to get a wheelchair and prostetics"
         },
         {
@@ -27,7 +27,7 @@ const testimonialData = [
         },
         {
                 title: "Rosanne W.",
-                picture: "https://www.pexels.com/search/women/",
+                picture: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8RyNrbWDwuzGGLdP1T-E67DGItdMT8y2AjJDvfLxaji301efaAHVTcUDKl77-RAB0YCQ&usqp=CAU",
                 body: "I am grateful for this non-profit organization, if it wasn't for them I would not be able to afford for my treatments."
         },
         {
