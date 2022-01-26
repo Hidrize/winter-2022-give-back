@@ -4,7 +4,6 @@ function Article(){
             title: "Bedbound Patients",
             picture: "https://cdn.flintrehab.com/uploads/2021/08/doctor-helping-bedridden-stroke-patient.jpg",
             tag: "At Give Back. Org we provide the best Quality care for our patients nursing assistance as possible",
-
         },
         {
             title: "Treating Patients",
@@ -24,6 +23,7 @@ function Article(){
                     <div>
                         <h3>{article.title}</h3>
                          <img src ={article.picture} alt='img' />
+                    
                     </div>
 
                     )
