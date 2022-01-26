@@ -44,8 +44,8 @@ h1
 {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
-  font-weight: 300;
-  font-size: 96px;
+  font-weight: 400;
+  font-size: 46px;
 
   text-align: center;
   color: #D32F2F;
@@ -59,7 +59,7 @@ h3
   font-weight: 400;
   font-size: 48px;
 
-  color: #D32F2F;
+  color: Blacks;
 }
 
 
@@ -87,7 +87,7 @@ p
 
 body
 {
-  background-color: Blue;
+  background-color: #efeee0;
 }
 
 

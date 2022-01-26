@@ -6,7 +6,7 @@ const TestimonialCard = ({title, picture, body}) => {
           <Card sx={{ maxWidth: 345 }}>
                   <CardMedia
                   component="img"
-                  height="140"
+                  height="300"
                   image={picture}
                   alt={title}
                   />
@@ -33,5 +33,5 @@ const Testimonial=()=> {
                         )}
                 </Grid>
         )
-}
+        }
 export default Testimonial;

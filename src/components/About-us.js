@@ -9,7 +9,7 @@ function Healthcare() {
     const Health = [{
         name: 'Gates Foundation',
         goal: "Guided by the belief that every life has equal value, the Bill & Melinda Gates Foundation works to help all people lead healthy, productive lives. In developing countries, it focuses on improving people's health and giving them the chance to lift themselves out of hunger and extreme poverty.",
-        image: 'http://b-i.forbesimg.com/randalllane/files/2014/01/327042a84b1339d57665500a5019de94.jpg',
+        image: 'https://i.insider.com/5b76d2d9b354cd32108b5505?width=1136&format=jpeg',
 
     },
 
