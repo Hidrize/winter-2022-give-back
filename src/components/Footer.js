@@ -24,41 +24,41 @@ return (
 		</Column>
 		<Column>
 			<Heading>Services</Heading>
-			<FooterLink href="#">Medical bill Assistance </FooterLink>
-			<FooterLink href="#">At Home Medical Assistnce </FooterLink>
-			<FooterLink href="#">Transportation </FooterLink>
-			<FooterLink href="#">Food assistance </FooterLink>
+			<FooterLink href="https://www.medicare.gov/">Medical bill Assistance </FooterLink>
+			<FooterLink href="https://enroll.rhc.care/cdpap/?">At Home Medical Assistnce </FooterLink>
+			<FooterLink href="https://new.mta.info/accessibility/paratransit">Transportation </FooterLink>
+			<FooterLink href="https://www.masbia.org">Food assistance </FooterLink>
 		</Column>
 		<Column>
 			<Heading>Contact Us</Heading>
-			<FooterLink href="#">PR </FooterLink>
-			<FooterLink href="#">Doctor</FooterLink>
-			<FooterLink href="#">Front Desk</FooterLink>
+			<FooterLink href="Mailto:mail@mail.com">PR </FooterLink>
+			<FooterLink href="Mailto:Doctor@doctor.org">Doctor</FooterLink>
+			<FooterLink href="Mailto:Frontdesk@Doctor.org">Front Desk</FooterLink>
 		</Column>
 		<Column>
 			<Heading>Social Media</Heading>
-			<FooterLink href="#">
+			<FooterLink href="https://www.facebook.com">
 			<i className="fab fa-facebook-f">
 				<span style={{ marginLeft: "10px" }}>
 				Facebook
 				</span>
 			</i>
 			</FooterLink>
-			<FooterLink href="#">
+			<FooterLink href="https://www.instagram.com">
 			<i className="fab fa-instagram">
 				<span style={{ marginLeft: "10px" }}>
 				Instagram
 				</span>
 			</i>
 			</FooterLink>
-			<FooterLink href="#">
+			<FooterLink href="https://twitter.com">
 			<i className="fab fa-twitter">
 				<span style={{ marginLeft: "10px" }}>
 				Twitter
 				</span>
 			</i>
 			</FooterLink>
-			<FooterLink href="#">
+			<FooterLink href="https://www.youtube.com">
 			<i className="fab fa-youtube">
 				<span style={{ marginLeft: "10px" }}>
 				Youtube
