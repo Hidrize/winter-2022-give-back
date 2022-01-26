@@ -7,7 +7,7 @@ function Nav() {
     <nav>
         <h2>Charity</h2>
     <ul class="nav-links">
-        <li> <Link to="/"> Home </Link>
+        <li> <Link to="/Components/Home"> Home </Link>
         </li>
         <li>
         <Link to="/Components/Testimonial"> Testimonial </Link>
